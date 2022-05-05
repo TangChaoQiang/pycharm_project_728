@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>旅推网登录页面</title>
+    
+    <link rel="stylesheet" type="text/css" href="登录.css"/>
+    <script type="text/javascript" src="登录.js"></script>
+</head>
+ 
+<body>
+<div id="login_frame">
+ 
+    <p id="login_logo"> <img src="../images/favicon.ico" alt=""></p>
+ 
+    <form method="post" action="登录.js">
+ 
+        <p><label class="label_input">用户名</label>
+            <input type="text" id="username" class="text_field"/></p>
+            
+        <p><label class="label_input">密码</label>
+            <input type="text" id="password" class="text_field"/></p>
+ 
+        <div id="login_control">
+            <input type="button" id="btn_login" value="登录" onclick="login();"/>
+            <input type="button" name="" id="btn_resgiste" value="注册" onclick="onClick()">
+            <!-- <a id="register_go" href="../注册/注册.html">注册</a> -->
+        </div>
+        <p>
+            <label for="" style="font-family: 楷体;">用户名：admin</label>
+            <label for="" style="font-family: 楷体;">密码：123456</label>
+        </p>
+    </form>
+</div>
+ 
+</body>
+</html>

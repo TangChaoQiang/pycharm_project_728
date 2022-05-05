@@ -1,0 +1,52 @@
+body {
+    background-image: url("../images/04.jpg");;
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+form{
+    background-color: rgba(180, 203, 245, 0.5);
+    width: 400px;
+    height: 450px;
+    padding: 13px;
+    border-radius: 5px;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -200px;
+    margin-top: -200px;
+}
+.re_yonghu {
+    font-size: 20px;
+    font-family: 宋体;
+ 
+    width: 200px;
+    height: 28px;
+    line-height: 28px;
+    text-align: center;
+ 
+    color: rgb(0, 0, 0);
+    /* background-color: #ffffff; */
+    /* opacity: 0.5; */
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+#p_button input{
+    font-size:18px;
+    font-family: 宋体;
+    line-height: 28px;
+    text-align: center;
+    color: #080808;
+    /* background-color: rgb(33, 155, 255); */
+    position: relative;
+    float: auto;
+    border-radius: 5px;
+    
+}
+
+#textarea{
+    resize: none;  
+    margin: 5px;
+}

@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>注册页面</title>
+
+    <link rel="stylesheet" type="text/css" href="注册.css"/>
+    <script type="text/javascript" src="注册.js"></script>
+</head>
+<body>
+    <form action="" method="post" >
+        <p>
+            <label for="" class="re_yonghu">用户名:</label>
+            <input type="text" name="name" id="re_name" class="re_input" placeholder="请输入用户名">
+        </p>
+        <p>
+            <label for="" class="re_yonghu" style="height:50px;">密&nbsp码:</label>
+            <input type="password" name="pass" id="re_password" class="re_input" placeholder="请输入密码">
+        </p>
+        <p>
+            <label for="" class="re_yonghu">性别:</label>
+            <input type="radio" name="gender" id="man"><label for="man">男</label>
+            <input type="radio" name="gender" id="nv"><label for="nv">女</label>
+        </p>
+        <p>
+            <label for="" class="re_yonghu">爱好:</label>
+            <input type="checkbox" name="checkbox" id="python"><label for="python">python</label>
+            <input type="checkbox" name="checkbox" id="javascript"><label for="javascript">javascript</label>
+            <input type="checkbox" name="checkbox" id="java"><label for="java">java</label>
+            <input type="checkbox" name="checkbox" id="C"><label for="C">C</label>
+        </p>
+        <p>
+            <label for="" class="re_yonghu">个人描述:</label><textarea name="text" id="textarea" cols="30" rows="10" >唐超强               201906124118                 2019级软件工程3班</textarea>
+        </p>
+        <p id="p_button">
+            <input type="button" id="btn_register" value="注册" onclick="register();"/>
+            <input style="float: right;" type="button" id="but_login" name="" value="返回登录" onclick="onClick();">
+            <p>
+                <label for="" style="font-family: 楷体;">用户名：admin2</label>
+                <label for="" style="font-family: 楷体;">密码：123456</label>
+            </p>
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,29 @@
+.thumb{
+    float: left;
+    width: 33%;
+    height: 30%;
+}
+
+h2{
+    font-family: 隶书;
+    color: burlywood;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    font-size: 14px;
+    color: coral;
+    text-align: center;
+    
+}
+
+.thumb div{
+    color: rgb(255, 255, 255);
+    align-content: center;
+    width: 360px;
+    height: 247px;  
+}
+
+.thumb div span{
+    float: left;
+}
