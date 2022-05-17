@@ -48,6 +48,7 @@ class handle_jingdong(object):
     def select_id_notsql_info(self):
         # print("7．根据id查询商品信息安全方式")
         num = input("请输入id:")
+        print(repr(num), type(num))
         sql = "SELECT * from goods WHERE id = %s"
         response = self.mysql.fetchall(sql, (num,))
         print(response)
